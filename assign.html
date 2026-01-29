@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmic MarketVerse AI - Case Study</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Cosmic MarketVerse AI</h1>
+        <p>Empowering SMEs with Data-Driven Insights</p>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h3>Market Overload Challenge</h3>
+            <p>Managing vast amounts of financial data efficiently.</p>
+            <button class="view-btn" onclick="openModal('The Challenge', 'The primary obstacle was the overwhelming influx of information, making it difficult for investors to make timely decisions. This led to missed opportunities and hindered strategy development.')">View Detail</button>
+        </div>
+
+        <div class="card">
+            <h3>The AI Solution</h3>
+            <p>Real-time news aggregation and AI-enhanced graphs.</p>
+            <button class="view-btn" onclick="openModal('Our Solution', 'Cosmic MarketVerse AI integrates real-time news, AI-driven insights, and advanced analytics. It uses GPT-4o for retrieval and mapping stock prices to news events.')">View Detail</button>
+        </div>
+        <div class="card">
+    <h3>Interactive AI Chat</h3>
+    <p>Instant answers and secondary research with GPT-4o.</p>
+    <button class="view-btn" onclick="openModal('AI-Powered Financial Assistant', 'Powered by GPT-4o, this feature provides instant answers to user queries. If internal data is insufficient, it performs external searches via Perplexity.ai for comprehensive research.')">View Detail</button>
+</div>
+
+<div class="card">
+    <h3>Financial Analytics Dashboard</h3>
+    <p>Monitoring market performance and sentiment analysis.</p>
+    <button class="view-btn" onclick="openModal('Comprehensive Financial Analytics', 'This module provides a unified view of critical metrics, including real-time stock prices and market capitalization. Its Sentiment Analysis feature gauges the market mood from social media and news, allowing users to make data-driven decisions.')">View Detail</button>
+</div>
+
+<div class="card">
+    <h3>User-Centric Design</h3>
+    <p>Tailored features for Traders, Analysts, and Retail Investors.</p>
+    <button class="view-btn" onclick="openModal('Catering to Diverse User Profiles', 'The platform balances complex tools for professionals with simple summaries for retail investors, ensuring a valuable experience for every type of investor.')">View Detail</button>
+</div>
+
+<div class="card">
+    <h3>Strategic Market Edge</h3>
+    <p>Staying ahead in a dynamic market environment.</p>
+    <button class="view-btn" onclick="openModal('Empowered Decision Making', 'Cosmic MarketVerse AI transforms raw data into strategic assets, allowing users to identify market shifts swiftly and maintain a competitive edge.')">View Detail</button>
+</div>
+    </div>
+
+    <div id="caseStudyModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+            <h2 id="modalTitle"></h2>
+            <p id="modalBody"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
